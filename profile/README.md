@@ -17,6 +17,7 @@ The most important projects:
 * [middleware](https://github.com/5G-ERA/middleware)
 * [era-5g-client](https://github.com/5G-ERA/era-5g-client)
 * [era-5g-interface](https://github.com/5G-ERA/era-5g-interface)
+* [era-5g-server](https://github.com/5G-ERA/era-5g-server)
 
 ### Workshops
 * [NetApp Workshop](https://github.com/5G-ERA/NetApp-Workshop)
