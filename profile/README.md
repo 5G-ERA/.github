@@ -15,13 +15,17 @@ Robot autonomy is essential for many 5G vertical sectors and can provide multipl
 
 The most important projects:
 * [middleware](https://github.com/5G-ERA/middleware)
+* [relay network application](https://github.com/5G-ERA/relay_network_application)
+* [signal quality network application](https://github.com/5G-ERA/signalQualityNetworkApplicationRos2)
 * [era-5g-client](https://github.com/5G-ERA/era-5g-client)
 * [era-5g-interface](https://github.com/5G-ERA/era-5g-interface)
 * [era-5g-server](https://github.com/5G-ERA/era-5g-server)
 
 ### Workshops
 * [NetApp Workshop](https://github.com/5G-ERA/NetApp-Workshop)
-* [Middleware Workshop](https://github.com/5G-ERA/BED-Workshop)
+* [From Cloud Robots to 5G/6G enabled Connected Robotics - Athens Workshop](https://github.com/5G-ERA/docs/tree/main/Workshops/Athens23)
+* [ICRA2024 Tutorial](https://github.com/5G-ERA/docs/blob/main/Workshops/ICRA24/README.md)
+
 
 <!--
 
