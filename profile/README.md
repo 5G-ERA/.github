@@ -15,15 +15,25 @@ ROS is de-facto standard for robotics and the adopted DDS communication technolo
 
 ### How does it work?
 
-CRoP has two main components: Middleware and Relay. The middleware orchestrates the vertical network application deployments and relay enables the cloud communiation. For the full documentation of the project, please visit [documentation](https://github.com/5G-ERA/docs) (Free chocolate 🍫😄!)
+CRoP has two main components: Middleware and Relay. The middleware orchestrates the vertical network application deployments and relay enables the cloud communiation. For the full documentation of the project, please visit [documentation](https://github.com/5G-ERA/docs)
+
 
 <p align="center">
   <img src="https://github.com/5G-ERA/.github/assets/26432703/4e1fe1b7-1e50-43a4-8a09-5a31dbaa0d7d" alt="description" width="500"/>
 </p>
 
-
-### CRoP License
+### CRoP License:
 
 For the licensing information see [LICENSE](https://github.com/5G-ERA/middleware/blob/main/LICENSE).
+
+### Reference:
+
+Visit the 5G ERA project website for more information.
+https://5g-era.eu 
+
+*The 5G-ERA project was developed by the following partners under the [consortium](https://5g-era.eu/consortium/) with funding of the European Union's Horizon 2020 Research and Innovation programme under grant agreement No. 101016681.*
+
+For workshops demostrations and tutorials visit our [Youtube Channel](https://www.youtube.com/channel/UCFn5FI9OYLA9_jTwl2cwdFA/videos )
+
 
 
