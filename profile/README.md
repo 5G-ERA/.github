@@ -1,37 +1,25 @@
-## 5G-ERA
+## 5G-ERA Connected robotics platform (CRoP)
 
-5G - Enhanced Robot Autonomy
+### What is CRop?
 
-5G-ERA is oriented towards a user-centric paradigm of integrating vertical knowledge into the existing standardised 5G testing framework to improve Quality of Experience (QoE). The project addresses the new challenges of experimental facilities for vertical developers and designers through the following activities: 
-1) integrating operational processes of essential autonomous robotic capabilities into Open Source MANO (OSM), ensuring the vertical-specific adaptation of existing experimentation facilities,
-2) realising an intent-based networking paradigm by aligning the end-to-end (E2E) resource optimisation with the autonomous operations, ensuring effective policy to be designed
-3) Cloud-native Network Services (NSs) on the experimental facilities will create, ensuring robotic applications exploiting NFV/SDN infrastructures efficiently,
-4) extending the experimentation facilities into robotic domains through standard APIs under the Robot Operating System (ROS), prompting third-party experimentation activities and engagement from new players.
+An open-source platform for enhancing robotics integration with communication technologies like 5G. It enables seamless interaction between robots and their vertical applications across unstructured, multi-domain, multi-administration network environments hosted on cloud/edge devices (Cloud robotics). CRoP focuses on developing and orchestrating ROS1/2 framework applications, emphasizing dynamically on-demand deployment and comprehensive resource management.
 
-Robot autonomy is essential for many 5G vertical sectors and can provide multiple benefits in automated mobility, Industry 4.0 and healthcare. 5G technology, on the other hand, has the great potential to enhance robot autonomy. Use cases from four vertical sectors, namely public protection and disaster relief (PPDR), transport, healthcare and manufacturing, will be validated in the project by rapid prototyping NetApp solutions and enhanced vertical experiences on autonomy. These case studies can be regarded as showcases of the potential of 5G and 5G-ERA to accelerate the ongoing convergence of robotics, AI & cloud computing and to unlock the next level of autonomy through 5G-based learning in general
+### What are the problems CRop is solving for robots?
 
-<!--🙋‍♀️ A short introduction - what is your organization all about?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know? -->
+Robots applications are usually designed for estructured, industry enviroments, fix QoS and static network topoloy, single domain and single administration.
+ROS is de-facto standard for robotics and the adopted DDS communication technology presents limitations for cloud robotics. Both TCP, used by ROS, and UDP multicast, used by ROS2's Data Distribution Service (DDS), operate at the transport layer and are susceptible to blocking across different network domains due to administrative or physical differences. This limits the deployment of ROS applications from research labs to real-world settings. 
 
-The most important projects:
-* [middleware](https://github.com/5G-ERA/middleware)
-* [relay network application](https://github.com/5G-ERA/relay_network_application)
-* [signal quality network application](https://github.com/5G-ERA/signalQualityNetworkApplicationRos2)
-* [era-5g-client](https://github.com/5G-ERA/era-5g-client)
-* [era-5g-interface](https://github.com/5G-ERA/era-5g-interface)
-* [era-5g-server](https://github.com/5G-ERA/era-5g-server)
+### How does it work?
 
-### Workshops
-* [NetApp Workshop](https://github.com/5G-ERA/NetApp-Workshop)
-* [From Cloud Robots to 5G/6G enabled Connected Robotics - Athens Workshop](https://github.com/5G-ERA/docs/tree/main/Workshops/Athens23)
-* [ICRA2024 Tutorial](https://github.com/5G-ERA/docs/blob/main/Workshops/ICRA24/README.md)
+CRoP has two main components: Middleware and Relay. The middleware orchestrates the vertical network application deployments and relay enables the cloud communiation. For the full documentation of the project, please visit [documentation](https://github.com/5G-ERA/docs) (Free chocolate 🍫😄!)
+
+<p align="center">
+  <img src="https://github.com/5G-ERA/.github/assets/26432703/4e1fe1b7-1e50-43a4-8a09-5a31dbaa0d7d" alt="description" width="500"/>
+</p>
 
 
-<!--
+### CRoP License
 
-**Here are some ideas to get you started:**
-🌈 Contribution guidelines - how can the community get involved?
+For the licensing information see [LICENSE](https://github.com/5G-ERA/middleware/blob/main/LICENSE).
 
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+
