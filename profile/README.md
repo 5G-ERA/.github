@@ -4,6 +4,10 @@
 
 An open-source platform for enhancing robotics integration with communication technologies like 5G. It enables seamless interaction between robots and their vertical applications across unstructured, multi-domain, multi-administration network environments hosted on cloud/edge devices (Cloud robotics). CRoP focuses on developing and orchestrating ROS1/2 framework applications, emphasizing dynamically on-demand deployment and comprehensive resource management.
 
+[**Video: "CROP"**](https://www.youtube.com/watch?v=onze4jM2J0A)
+![Preview](https://i1.ytimg.com/vi/onze4jM2J0A/maxresdefault.jpg)
+
+
 ### What are the problems CRop is solving for robots?
 
 Robots applications are usually designed for estructured, industry enviroments, fix QoS and static network topoloy, single domain and single administration.
